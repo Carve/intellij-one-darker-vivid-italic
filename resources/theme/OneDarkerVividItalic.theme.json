@@ -7,7 +7,9 @@
   "dark": true,
   "colors": {
     "backgroundDark": "#1f1f1f",
-    "backgroundDarker": "#181818"
+    "backgroundDarker": "#181818",
+    "accentText": "#00d9ff",
+    "whiteText": "#ffffff"
   },
   "ui": {
     "*": {
@@ -15,6 +17,15 @@
     },
     "ToolBar.background": "backgroundDarker",
     "SidePanel.background": "backgroundDarker",
-    "Button.background": "backgroundDark"
-  }
+    "Panel.background": "backgroundDarker",
+    "Button.background": "backgroundDark",
+    "Editor.background": "backgroundDark"
+  },
+  "Editor.background": "backgroundDark",
+  "Button.background": "backgroundDark",
+  "Button.default.foreground": "whiteText",
+  "Panel.foreground": "whiteText",
+  "Panel.foreground.active": "accentText",
+  "Panel.foreground.hover": "accentText",
+  "Panel.hoverForeground": "backgroundDark"
 }
