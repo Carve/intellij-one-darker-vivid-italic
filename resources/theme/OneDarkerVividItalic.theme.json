@@ -1,0 +1,20 @@
+{
+  "name": "One Darker Vivid Italic",
+  "author": "CJ Ratliff",
+  "authorUrl": "https://github.com/cjratliff",
+  "description": "A dark gray variant of the infamous Atom's iconic One Dark theme, and one of the most downloaded themes for VS Code.",
+  "version": "1.0.0",
+  "dark": true,
+  "colors": {
+    "backgroundDark": "#1f1f1f",
+    "backgroundDarker": "#181818"
+  },
+  "ui": {
+    "*": {
+      "background": "backgroundDarker"
+    },
+    "ToolBar.background": "backgroundDarker",
+    "SidePanel.background": "backgroundDarker",
+    "Button.background": "backgroundDark"
+  }
+}
